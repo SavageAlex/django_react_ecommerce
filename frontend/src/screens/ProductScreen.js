@@ -102,10 +102,9 @@ function ProductScreen() {
                   </ListGroup.Item>
                 )}
 
-                <ListGroup.Item>
+                <ListGroup.Item className="d-grid gap-2">
                   <Button
                     onClick={addToCartHandler}
-                    className="btn-block"
                     disabled={product.countInStock === 0}
                     type="button"
                   >
