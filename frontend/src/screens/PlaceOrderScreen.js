@@ -33,7 +33,7 @@ function PlaceOrderScreen() {
 
   useEffect(() => {
     if (success) {
-      navigate(`/orders/${order._id}`);
+      navigate(`/order/${order._id}`);
     }
   }, [success, navigate]);
 
